@@ -1,0 +1,140 @@
+This file contains functions or code that had to be deleted from the trunk.
+Perhaps we need them in the future:
+
+
+LANG.PHP
+--------
+
+<?php
+
+  //execute the 'lang' script
+  passthru('./lang 2>&1');
+
+?>
+
+
+FUNCS.JS
+--------
+
+function SameValues(array_txt,array_string){
+// if txts have the same values as strings
+// return true, else return false
+
+  var i = 0;
+
+  while(i<array_txt.length){
+    if (array_txt[i].value != array_string[i])
+      return false;
+    i++;
+  }
+
+  return true;
+}
+
+
+FUNCS.INC.PHP
+-------------
+
+//function obtained from:
+// http://www.php.net/manual/en/function.array-multisort.php#29746
+function SortByKey($aArray, $vColumn){
+  foreach ($aArray as $aElement) {
+    $aSort[] = $aElement[$vColumn];
+  }
+  array_multisort($aSort, $aArray);
+  return $aArray;
+}
+
+
+COLLECTION.PRODUCTS.CLASS.PHP
+-----------------------------
+
+//public
+function &ObtainProductsList(){
+
+  $aProducts = $this->ObtainList(model,brand,cod);
+  $oBrands = new ProdLer_Collection_Brands();
+
+  if ($aProducts){
+    foreach($aProducts as $aProduct){
+      if ($oBrand->iCod == $aProduct['brand'])
+        $aProduct['brand']=$oBrand->sName;
+      else{
+        $oBrand = $oColBrands->ObtainObject('cod',$aProduct['brand']);
+        $aProduct['brand']=$oBrand->sName;
+      }
+    }
+
+    return SortByKey($aProducts,'brand');
+  }
+
+  return NULL;
+}
+
+
+BASE.TPL
+--------
+
+-->
+<base href="{$base}">
+<!--
+
+
+INDEX.HTM.TPL
+-------------
+
+<!-- BASE {if $base}{include file='base.tpl'}{/if}-->
+<!-- /BASE -->
+
+
+INDEX.PHP
+---------
+
+$base = "http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/non-existent/";
+$smarty->assign('base',$base);
+
+
+FUNCS.JS
+--------
+
+function TextCheckbox(txt,chk){
+// if text trims to empty:
+//   checkbox is unchecked
+// else: checkbox is checked
+
+  chk.checked = (!IsNothing(txt.value))
+}
+
+function Select0Radio(sel,rad){
+// if second index (or more) is selected on the list:
+//   radio is checked
+
+  if (sel.selectedIndex>0)
+    rad.checked = true;
+}
+
+function TextRadio(txt,rad){
+// if text not trims to empty:
+//   radio is checked
+
+  if (!IsNothing(txt.value))
+    rad.checked = true;
+}
+
+
+FORM_PRODUCT.HTM.TPL
+--------------------
+
+  if (changed==frm.txtNewCategory)
+    TextCheckbox(changed,frm.chkSubcategory);
+  if (changed==frm.selBrand)
+    Select0Radio(changed,frm.radBrandA);
+  if (changed==frm.txtNewBrand)
+    TextRadio(changed,frm.radBrandB);
+
+
+XSMARTY.CLASS.PHP
+-----------------
+
+    //var $default_modifiers = array('escape:"htmlall"');
+    //var $default_modifiers = array('Xhtmlspecialchars');

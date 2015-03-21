@@ -1,0 +1,263 @@
+
+/* LAYOUT */
+
+body {
+  /* order: top right bottom left */
+
+  margin: 1ex 0 0 1ex;
+  padding: 0px 0px 0px 0px;
+
+/*  max-width: 122ex;*/
+  overflow: visible;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h1 {
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 1ex;
+  text-align: left;
+}
+
+h4 {
+  margin-bottom: 0.25em;
+}
+
+p {
+  margin-bottom: 1em;
+  margin-top: 0em;
+  line-height: 1.4em;
+}
+
+div#header {
+  position: relative;
+  /*z-index: 0;*/
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0.9em;
+  border: none;
+
+  /*top: 0px;
+  left: 0px;*/
+  height: 5ex;
+  /*width: 100%;
+  right: auto;
+  bottom: auto;*/
+
+  /*text-align: center;*/
+  vertical-align: middle;
+
+  overflow: visible;
+
+  /* background: #666; */
+}
+
+div#header div.headline {
+  float: left;
+  vertical-align: middle;
+  margin: -.5ex 0 0 35px;
+  padding: 12px 0ex 0ex 0ex;
+}
+
+div#header div.headimg {
+  float: left;
+  vertical-align: middle;
+  margin: -1ex 0 0 35px;
+  padding: 12px 0ex 0ex 0ex;
+}
+
+div#header a {
+  visibility: hidden;
+  display: none;
+}
+
+img#imgHeaderBig {
+  visibility: hidden;
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+img#imgHeaderSmall {
+  height: 30px;
+  width: auto;
+}
+
+div.menu {
+  position: absolute;
+  z-index: 1;
+
+ /* margin: 5px 0px 0px 5px;*/
+  padding: 3px 0 0.5ex 0;
+  border-width: 1px;
+  border-style: solid;
+
+  top: 3.78em;
+  left: 0.6em;
+  height: auto;
+  width: 8em;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  vertical-align: middle;
+
+  overflow: auto;
+
+  /* background: #676; */
+}
+
+div.menu div {
+  margin: 1ex 0px 0.5ex 0px;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+}
+
+div.menu a:link,
+div.menu a:visited {
+  padding: 0 5px 0 5px;
+  display: block;
+}
+
+dd {
+  margin-left: 0px;
+  padding-left: 0px;
+	
+}
+
+dl {
+  margin-top: 0px;
+  margin-bottom: 0.5ex;
+}
+
+img#imgHome {
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+div.homeimg {
+  position: absolute;
+  z-index: 2;
+  right: 10px;
+  margin: -2em 0px 0px 10px;
+}
+
+div#content {
+  position: relative;
+  z-index: 0;
+
+  margin: .4em 1ex 0 10em;
+  padding: 0ex 1ex 0 1ex;
+  border-style: solid;
+  border-width: 1px;
+
+  top: 0px;
+  left: 0px;
+  height: auto;
+  width: auto;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  /*vertical-align: top;*/
+
+  /* overflow: visible; */
+  min-height: 320px;
+
+  /* background: #656; */
+}
+
+div#footer {
+  position: relative;
+  z-index: 0;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px;
+
+  top: 10px;
+  left: 0px;
+  height: auto;
+  width: 100%;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  vertical-align: middle;
+
+  overflow: visible;
+
+  /* background: #636; */
+}
+
+div.box {
+  border-width: 1px 1px 1px 0.8ex;
+  border-style: solid;
+
+  padding-left: 1ex;
+  padding-right: 1ex;
+  margin-bottom: 1ex;
+  margin-top: 2ex;
+  padding-top: 10px;
+  padding-bottom: 2ex;
+}
+
+div.box h3 {
+  margin-top: 1ex;
+}
+
+div.box div.category { 
+  float: right;
+  font-size: 80%;
+
+  margin-top: -1ex;
+  padding: 0px 2px 1px 2px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+div.box p.info {
+  float:left;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  font-size: 80%;
+  width: 44ex;
+  margin-top: -1ex;
+  padding-top: 0px;
+}
+
+/* MOZILLA ONLY */
+div.menu, div.box, div#content {
+  -moz-border-radius: 10px;
+}
+
+div.box div.category { 
+  -moz-border-radius: 5px;
+}
+
+
+/* HACKS needed to make style work with IE browser */
+
+div#content {
+  /* ie treats as min-height */
+  height: 320px;
+}
+
+body>#content {
+  /* ie ignores child selector,
+     modern browsers replace height declaration */
+  height: auto;
+}

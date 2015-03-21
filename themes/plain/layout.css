@@ -1,0 +1,138 @@
+
+/* LAYOUT */
+
+body {
+  /* order: top right bottom left */
+
+  margin: 5px 0px 0px 5px;
+  padding: 0px 0px 0px 0px;
+
+  overflow: visible;
+}
+
+
+h1, h2, h3, h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div#header {
+  position: relative;
+  z-index: 0;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px;
+
+  top: 0px;
+  left: 0px;
+  height: 140px;
+  width: 100%;
+  right: auto;
+  bottom: auto;
+
+  text-align: center;
+  vertical-align: middle;
+
+  overflow: visible;
+
+  /* background: #666; */
+}
+
+img#imgHeaderBig {
+  height: auto;
+  width: auto;
+}
+
+img#imgHeaderSmall {
+  visibility: hidden;
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+div.menu {
+  position: absolute;
+  z-index: 1;
+
+  margin: 5px 0px 0px 5px;
+  padding: 5px 0px 0px 5px;
+  border: 0px;
+
+  top: 140px;
+  left: 0px;
+  height: 280px;
+  width: 140px;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  vertical-align: middle;
+
+  overflow: auto;
+
+  /* background: #676; */
+}
+
+img#imgHome {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+div.homeimg {
+  visibility: hidden;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+div#content {
+  position: relative;
+  z-index: 0;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 150px;
+  border: 0px;
+
+  top: 0px;
+  left: 0px;
+  height: auto;
+  min-height: 280px;
+  width: auto;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  /*vertical-align: top;*/
+
+  overflow: visible;
+
+  /* background: #656; */
+}
+
+div#footer {
+  position: relative;
+  z-index: 0;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px;
+
+  top: 10px;
+  left: 0px;
+  height: auto;
+  width: 100%;
+  right: auto;
+  bottom: auto;
+
+  text-align: left;
+  vertical-align: middle;
+
+  overflow: visible;
+
+  /* background: #636; */
+}
+

@@ -1,0 +1,7 @@
+#cleanup
+./lang
+
+#pack files to TAR, excluding commands made for developing
+cd ..
+tar --exclude-from=./prodler/exclude -czf prodler.tgz prodler/
+cd prodler/

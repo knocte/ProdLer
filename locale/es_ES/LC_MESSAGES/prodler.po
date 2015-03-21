@@ -1,0 +1,964 @@
+# GETTEXT FILE FOR _PRODLER_ TRANSLATION TO SPANISH.
+# Fichero de gettext para la traducción de ProdLer al español.
+#
+# Copyright (C) 2004
+# This file is distributed under the same license as ProdLer.
+# Este fichero se distribuye bajo la misma licencia que ProdLer.
+# Andres Gomez Aragoneses <angoar@iies.es>, 2003.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-11-25 01:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andres Gomez Aragoneses <knocte@hotmail.com>\n"
+"Language-Team: es_ES <angoar@iies.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+###############################################
+#: GENERAL (strings present on several files) #
+###############################################
+
+msgid "Accept"
+msgstr "Aceptar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "Brands"
+msgstr "Marcas"
+
+msgid "Categories"
+msgstr "Familias"
+
+msgid "Dealers"
+msgstr "Proveedores"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Products"
+msgstr "Productos"
+
+msgid "New Product"
+msgstr "Nuevo Producto"
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "ROOT"
+msgstr "RAÍZ"
+
+msgid "Invalid data received from the form"
+msgstr "Datos del formulario inválidos"
+
+msgid "URL cannot have spaces"
+msgstr "La URL no puede contener espacios"
+
+msgid "Brand not found"
+msgstr "Marca no encontrada"
+
+msgid "Category not found"
+msgstr "Familia no encontrada"
+
+msgid "Dealer not found"
+msgstr "Proveedor no encontrado"
+
+msgid "Creation"
+msgstr "Creación"
+
+msgid "Modification"
+msgstr "Modificación"
+
+msgid "NEVER"
+msgstr "NUNCA"
+
+msgid "NEW"
+msgstr "NUEVO"
+
+msgid "Product Catalogue"
+msgstr "Catálogo de Productos"
+
+msgid "Products Catalogue"
+msgstr "Catálogo de Productos"
+
+msgid "Product catalogue"
+msgstr "Catálogo de productos"
+
+msgid "Products catalogue"
+msgstr "Catálogo de productos"
+
+msgid "Product Search"
+msgstr "Búsqueda de Productos"
+
+msgid "Products Search"
+msgstr "Búsqueda de Productos"
+
+msgid "Products search"
+msgstr "Búsqueda de productos"
+
+msgid "Product search"
+msgstr "Búsqueda de productos"
+
+msgid "Catalogue"
+msgstr "Catálogo"
+
+msgid "Contact us"
+msgstr "Consultar"
+
+
+#########################################################
+################## CATALOGUE ############################
+
+################## PHP FILES ############################
+
+
+################## TPL FILES ############################
+
+#############
+#: menu.tpl #
+#############
+
+msgid "Information"
+msgstr "Información"
+
+msgid "Main site"
+msgstr "Web principal"
+
+msgid "About"
+msgstr "Acerca de"
+
+
+#####################
+#: products.htm.tpl #
+#####################
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Products found"
+msgstr "Productos encontrados"
+
+
+############################
+#: products_search.htm.tpl #
+############################
+
+msgid "Search by text & association"
+msgstr "Buscar por texto y asociación"
+
+
+##################
+#: index.htm.tpl #
+##################
+
+msgid "Welcome to the interactive products catalogue of"
+msgstr "Bienvenido al catálogo de productos interactivo de"
+
+msgid "Please select the method you want to explore its contents"
+msgstr "Por favor, elija el método que desea para explorar su contenido"
+
+msgid "Brands listing"
+msgstr "Listado de marcas"
+
+msgid "Click"
+msgstr "Haga click"
+
+msgid "here"
+msgstr "aquí"
+
+msgid "if you want to explore the catalogue selecting a brand to view its products"
+msgstr "si desea explorar el catálogo seleccionando una marca para ver sus productos"
+
+msgid "Categories clasification"
+msgstr "Clasificación por familias"
+
+msgid "to dive into the tree of the products categories"
+msgstr "para sumergirse en el árbol de familias"
+
+msgid "to search any products on the database, based on different criteria"
+msgstr "para efectuar una búsqueda de productos en la base de datos, basada en distintos criterios"
+
+
+#####################
+#: category.htm.tpl #
+#####################
+
+msgid "Categories in the catalogue"
+msgstr "Familias en el catálogo"
+
+
+#########################################################
+################## CONFIGURATION ########################
+
+########################
+#: form_brand_post.php #
+########################
+
+msgid "Brand name is a required field"
+msgstr "El nombre para la marca es un campo requerido"
+
+msgid "You have exceeded the maximum number of characters for the brand name"
+msgstr "Ha excedido el número máximo de caracteres para el nombre de la marca"
+
+msgid "You have exceeded the maximum number of characters for the brand URL"
+msgstr "Ha excedido el número máximo de caracteres para la URL de la marca"
+
+msgid "The brand has been successfully created"
+msgstr "La marca se ha creado con éxito"
+
+msgid "There is already a brand with that name"
+msgstr "Ya existe una marca con el nombre especificado"
+
+msgid "The brand has been successfully modified"
+msgstr "La marca se ha modificado con éxito"
+
+
+#########################
+#: form_brands_post.php #
+#########################
+
+msgid "Brand creation"
+msgstr "Creación de marca"
+
+msgid "You have to select a particular brand to modify an entry"
+msgstr "Debe seleccionar una marca concreta para modificar una entrada"
+
+msgid "Brand modification"
+msgstr "Modificación de marca"
+
+msgid "You have to select a particular brand to delete an entry"
+msgstr "Debe seleccionar una marca concreta para eliminar una entrada"
+
+msgid "Brand successfully deleted"
+msgstr "Marca eliminada con éxito"
+
+msgid "You have to select a particular brand to show its products"
+msgstr "Debe seleccionar una marca concreta para mostrar sus productos"
+
+msgid "of brand"
+msgstr "marca"
+
+msgid "You cannot delete a brand which contains products"
+msgstr "No puede eliminar una marca que contiene productos"
+
+
+#############################
+#: form_categories_post.php #
+#############################
+
+msgid "Category creation"
+msgstr "Creación de familia"
+
+msgid "You have to select a particular category to modify an entry"
+msgstr "Debe seleccionar una familia en concreto para modificar una entrada"
+
+msgid "Category modification"
+msgstr "Modificación de familia"
+
+msgid "You have to select a particular category to delete an entry"
+msgstr "Debe seleccionar una familia en concreto para eliminar una entrada"
+
+msgid "Category successfully deleted"
+msgstr "Familia eliminada con éxito"
+
+msgid "You have to select a particular category to show its products"
+msgstr "Debe seleccionar una familia en concreto para mostrar sus productos"
+
+msgid "of category"
+msgstr "de la familia"
+
+msgid "You cannot delete a category which contains subcategories and/or products"
+msgstr "No puede eliminar una familia que contiene subfamilias y/o productos"
+
+
+###########################
+#: form_category_post.php #
+###########################
+
+msgid "Category name is a required field"
+msgstr "El nombre de la familia es un campo requerido"
+
+msgid "Parent category is a required field"
+msgstr "La familia padre es un dato requerido"
+
+msgid "You have exceeded the maximum number of characters for the category name"
+msgstr "Ha excedido el número máximo de caracteres para el nombre de la familia"
+
+msgid "Parent category not found"
+msgstr "Familia padre no encontrada"
+
+msgid "The category has been successfully created"
+msgstr "La familia se ha creado con éxito"
+
+msgid "The category has been successfully modified"
+msgstr "La familia se ha modificado con éxito"
+
+msgid "There is already a category with that name"
+msgstr "Ya existe una familia con el nombre especificado"
+
+
+##########################
+#: form_dealers_post.php #
+##########################
+
+msgid "Dealer creation"
+msgstr "Creación de proveedor"
+
+msgid "You have to select a particular dealer to modify an entry"
+msgstr "Debe seleccionar un proveedor en concreto para modificar una entrada"
+
+msgid "Dealer modification"
+msgstr "Modificación de proveedor"
+
+msgid "You have to select a particular dealer to delete an entry"
+msgstr "Debe seleccionar un proveedor en concreto para eliminar una entrada"
+
+msgid "Dealer successfully deleted"
+msgstr "Proveedor eliminado con éxito"
+
+msgid "You have to select a particular dealer to show its products"
+msgstr "Debe seleccionar un proveedor en concreto para mostrar sus productos"
+
+msgid "of dealer"
+msgstr "del proveedor"
+
+msgid "You cannot delete a dealer which contains provisions"
+msgstr "No puede eliminar un proveedor que contiene suministros"
+
+
+#########################
+#: form_dealer_post.php #
+#########################
+
+msgid "Dealer name is a required field"
+msgstr "El nombre del proveedor es un campo requerido"
+
+msgid "Dealer alias is a required field"
+msgstr "El alias del proveedor es un campo requerido"
+
+msgid "You have exceeded the maximum number of characters for the dealer name"
+msgstr "Ha excedido el número máximo de caracteres para el nombre del proveedor"
+
+msgid "You have exceeded the maximum number of characters for the dealer alias"
+msgstr "Ha excedido el número máximo de caracteres para el alias del proveedor"
+
+msgid "You have exceeded the maximum number of characters for the dealer URL"
+msgstr "Ha excedido el número máximo de caracteres para la URL del proveedor"
+
+msgid "You have exceeded the maximum number of characters for the "
+msgstr "Ha excedido el número máximo de caracteres para el "
+
+msgid "You have exceeded the maximum number of characters for the dealer address"
+msgstr "Ha excedido el número máximo de caracteres para la dirección del proveedor"
+
+msgid "You have exceeded the maximum number of characters for a phone field"
+msgstr "Ha excedido el número máximo de caracteres para alguno de los teléfonos"
+
+msgid "You have exceeded the maximum number of characters for the dealer contact"
+msgstr "Ha excedido el número máximo de caracteres para la persona de contacto"
+
+msgid "You have exceeded the maximum number of characters for the notes"
+msgstr "Ha excedido el número máximo de caracteres para las notas"
+
+msgid "The dealer has been successfully created"
+msgstr "El proveedor se ha creado correctamente"
+
+msgid "There is already a dealer with the same name, alias or "
+msgstr "Ya existe un proveedor con el mismo nombre, alias o "
+
+msgid "The dealer has been successfully modified"
+msgstr "El proveedor ha sido modificado con éxito"
+
+
+#######################
+#: form_name_post.php #
+#######################
+
+msgid "Company name is a required field"
+msgstr "El nombre de la empresa es un campo requerido"
+
+msgid "You have exceeded the maximum number of characters for the company name"
+msgstr "Ha excedido el número máximo de caracteres para el nombre de la empresa"
+
+msgid "You have exceeded the maximum number of characters for the company URL"
+msgstr "Ha excedido el número máximo de caracteres para la URL de la empresa"
+
+msgid "Preferences have been successfully initialized"
+msgstr "Las preferencias se han inicializado con éxito"
+
+
+###################
+#: form_prefs.php #
+###################
+
+msgid "Logo Image"
+msgstr "Imagen de logotipo"
+
+msgid "Logo Icon"
+msgstr "Icono de logotipo"
+
+
+########################
+#: form_prefs_post.php #
+########################
+
+msgid "The tax quantity must be numeric"
+msgstr "El porcentaje de impuestos debe ser un dato numérico"
+
+msgid "Preferences have been succesfully saved"
+msgstr "Las preferencias han sido establecidas con éxito"
+
+
+#####################
+#: form_product.php #
+#####################
+
+msgid "You have to select a valid dealer to insert a new price"
+msgstr "Debe seleccionar un proveedor concreto para insertar un nuevo precio"
+
+msgid "You have to write the name of a new dealer to insert a price this way"
+msgstr "Debe escribir el nombre de un proveedor nuevo para insertar un nuevo precio de esa manera"
+
+msgid "Product creation"
+msgstr "Creación de producto"
+
+msgid "The product has been successfully created"
+msgstr "El producto se ha creado satisfactoriamente"
+
+msgid "There is already a product with the same brand and model"
+msgstr "Ya existe un producto con la marca y modelo especificados"
+
+msgid "You have to specify if the brand is new or existing"
+msgstr "Debe especificar si la marca es existente o nueva"
+
+msgid "You have to select a particular brand"
+msgstr "Debe seleccionar una marca concreta"
+
+msgid "You have to write the name of the new brand"
+msgstr "Debe escribir el nombre de la nueva marca"
+
+msgid "You have exceeded the maximum number of characters for the new brand"
+msgstr "Ha excedido el número máximo de caracteres para la nueva marca"
+
+msgid "Product model is a required field"
+msgstr "El modelo del producto es un campo requerido"
+
+msgid "You have exceeded the maximum number of characters for the product model"
+msgstr "Ha excedido el número máximo de caracteres para el modelo del producto"
+
+msgid "You have exceeded the maximum number of characters for the product description"
+msgstr "Ha excedido el número máximo de caracteres para la descripción del producto"
+
+msgid "You have exceeded the maximum number of characters for the product characteristics"
+msgstr "Ha excedido el número máximo de caracteres para las características del producto"
+
+msgid "You have exceeded the maximum number of characters for the product specifications"
+msgstr "Ha excedido el número máximo de caracteres para las especificaciones del producto"
+
+msgid "You have to select a particular category"
+msgstr "Debe seleccionar una familia concreta"
+
+msgid "You have to select the parent category of the new subcategory"
+msgstr "Debe seleccionar la familia padre de la nueva subfamilia"
+
+msgid "You have to write the name of the new category"
+msgstr "Debe escribir el nombre de la nueva familia"
+
+msgid "You have to write only numbers for price fields"
+msgstr "Debe escribir solamente números en los campos de precio"
+
+msgid "The product has been successfully modified"
+msgstr "El producto se ha modificado satisfactoriamente"
+
+
+###########################
+#: form_products_post.php #
+###########################
+
+msgid "You have to select a particular product to modify an entry"
+msgstr "Debe seleccionar un producto concreto para modificar una entrada"
+
+msgid "You have to select a particular product to delete an entry"
+msgstr "Debe seleccionar un producto concreto para eliminar una entrada"
+
+msgid "Product successfully deleted"
+msgstr "Producto eliminado con éxito"
+
+msgid "Product not found"
+msgstr "Producto no encontrado"
+
+msgid "Product modification"
+msgstr "Modificación de producto"
+
+msgid "The product is going to be deleted from the database"
+msgstr "El producto será eliminado de la base de datos"
+
+msgid "You have to write some number to search a particular product"
+msgstr "Debe escribir un número para buscar un producto en particular"
+
+msgid "found"
+msgstr "encontrados"
+
+
+##################
+#: prefs.inc.php #
+##################
+
+msgid "not included"
+msgstr "no incluido"
+
+
+#########################################################
+################## TPL FILES ############################
+
+############
+#: img.tpl #
+############
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "None"
+msgstr "Ninguna"
+
+msgid "Preview"
+msgstr "Vista previa"
+
+msgid "Image code"
+msgstr "Código de imagen"
+
+msgid "Image filename"
+msgstr "Archivo de imagen"
+
+msgid "New image"
+msgstr "Nueva imagen"
+
+msgid "Select a file"
+msgstr "Escoja un fichero"
+
+msgid "No images"
+msgstr "No hay imágenes"
+
+msgid "Image preview"
+msgstr "Imagen de vista previa"
+
+##################
+#: index.htm.tpl #
+##################
+
+msgid "Catalogue Administration"
+msgstr "Administración del catálogo"
+
+msgid "Welcome to the administrative zone"
+msgstr "Bienvenido a la zona administrativa"
+
+
+###############
+#: footer.tpl #
+###############
+
+msgid "Powered by"
+msgstr "Basado en"
+
+msgid "non-required"
+msgstr "no requerido"
+
+msgid "using"
+msgstr "usando"
+
+msgid "Best viewed with"
+msgstr "Optimizado para"
+
+msgid "Recommended resolution"
+msgstr "Resolución recomendada"
+
+msgid "http://www.mozilla.org/"
+msgstr "http://www.mozillaes.org/"
+
+
+#######################
+#: form_brand.htm.tpl #
+#######################
+
+msgid "Brand name"
+msgstr "Nombre de la marca"
+
+msgid "Brand URL"
+msgstr "URL de la marca"
+
+
+########################
+#: form_brands.htm.tpl #
+########################
+
+msgid "Brands Management"
+msgstr "Gestión de Marcas"
+
+msgid "ALL BRANDS"
+msgstr "TODAS"
+
+msgid "No brands set"
+msgstr "No hay marcas"
+
+msgid "Add new brand"
+msgstr "Añadir nueva marca"
+
+msgid "Modify selected brand"
+msgstr "Modificar marca"
+
+msgid "Delete selected brand"
+msgstr "Eliminar marca"
+
+msgid "Products of selected brand"
+msgstr "Mostrar productos"
+
+msgid "Total number of brands"
+msgstr "Número total de marcas"
+
+
+############################
+#: form_categories.htm.tpl #
+############################
+
+msgid "Categories Management"
+msgstr "Gestión de Familias"
+
+msgid "Add new category"
+msgstr "Añadir nueva familia"
+
+msgid "Modify selected category"
+msgstr "Modificar familia"
+
+msgid "Delete selected category"
+msgstr "Eliminar familia"
+
+msgid "Products of selected category"
+msgstr "Mostrar productos"
+
+msgid "Total number of categories"
+msgstr "Número total de familias"
+
+
+##########################
+#: form_category.htm.tpl #
+##########################
+
+msgid "Select the parent category"
+msgstr "Escoja su familia padre"
+
+msgid "Category name"
+msgstr "Nombre de la familia"
+
+
+#########################
+#: form_dealers.htm.tpl #
+#########################
+
+msgid "Dealers Management"
+msgstr "Gestión de Proveedores"
+
+msgid "ALL DEALERS"
+msgstr "TODOS"
+
+msgid "No dealers set"
+msgstr "No hay proveedores"
+
+msgid "Add new dealer"
+msgstr "Añadir nuevo proveedor"
+
+msgid "Modify selected dealer"
+msgstr "Modificar proveedor"
+
+msgid "Delete selected dealer"
+msgstr "Eliminar proveedor"
+
+msgid "Products of selected dealer"
+msgstr "Mostrar productos"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Alias"
+msgstr "Alias"
+
+msgid "Address"
+msgstr "Dirección"
+
+msgid "Phone"
+msgstr "Teléfono"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Payment"
+msgstr "Pago"
+
+msgid "Notes"
+msgstr "Notas"
+
+msgid "Undefined"
+msgstr "Indefinido"
+
+msgid "Account charge"
+msgstr "Cargo en cuenta"
+
+msgid "Bank transfer"
+msgstr "Transferencia"
+
+msgid "Check"
+msgstr "Cheque"
+
+msgid "Cash"
+msgstr "Efectivo"
+
+msgid "Other"
+msgstr "Otro"
+
+msgid "Total number of dealers"
+msgstr "Número total de proveedores"
+
+
+######################
+#: form_name.htm.tpl #
+######################
+
+msgid "Database Initialization"
+msgstr "Inicialización de la Base de Datos"
+
+msgid "ProdLer database is not initialized"
+msgstr "La Base de Datos de ProdLer no está inicializada"
+
+msgid "Please fill the following form"
+msgstr "Por favor, rellene los siguientes campos"
+
+msgid "Your company name"
+msgstr "Nombre de su empresa"
+
+msgid "Your company URL"
+msgstr "URL de su empresa"
+
+
+#######################
+#: form_prefs.htm.tpl #
+#######################
+
+msgid "Preferences"
+msgstr "Preferencias"
+
+msgid "Company"
+msgstr "Empresa"
+
+msgid "Default benefit"
+msgstr "Margen predeterminado"
+
+msgid "Over final price"
+msgstr "Sobre el PVP"
+
+msgid "Over dealer price"
+msgstr "Sobre el PVD"
+
+msgid "Tax"
+msgstr "Impuestos"
+
+msgid "Include tax on prices"
+msgstr "Añadir impuestos a precios"
+
+msgid "Include sentence"
+msgstr "Poner aviso"
+
+msgid "Do not use tax"
+msgstr "No usar impuestos"
+
+msgid "Miscellaneous"
+msgstr "Miscelánea"
+
+msgid "Name for dealer identification"
+msgstr "Nombre para la identificación de proveedores"
+
+msgid "Date syntax"
+msgstr "Sintaxis de fecha"
+
+msgid "Currency"
+msgstr "Moneda"
+
+msgid "Symbol"
+msgstr "Símbolo"
+
+msgid "Decimal divisor character"
+msgstr "Caracter para el divisor decimal"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Default for visitors"
+msgstr "Predeterminado para visitantes"
+
+msgid "Default for configuration zone"
+msgstr "Predeterminado para zona de configuración"
+
+msgid "Auto-detect"
+msgstr "Auto-detectar"
+
+msgid "Force to default"
+msgstr "Restringir al predeterminado"
+
+msgid "Web style"
+msgstr "Estilos web"
+
+
+#########################
+#: form_product.htm.tpl #
+#########################
+
+msgid "Brand"
+msgstr "Marca"
+
+msgid "Category"
+msgstr "Familia"
+
+msgid "Existing"
+msgstr "Existente"
+
+msgid "Select a brand"
+msgstr "Escoja una marca"
+
+msgid "New"
+msgstr "Nueva"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Create subcategory"
+msgstr "Crear subfamilia"
+
+msgid "Characteristics"
+msgstr "Características"
+
+msgid "Specifications"
+msgstr "Especificaciones"
+
+msgid "Dealer"
+msgstr "Proveedor"
+
+msgid "Dealer price"
+msgstr "Coste"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Delete provision"
+msgstr "Eliminar suministro"
+
+msgid "Select a dealer"
+msgstr "Escoja un proveedor"
+
+msgid "No more dealers"
+msgstr "No hay proveedores"
+
+msgid "No dealers"
+msgstr "No hay proveedores"
+
+msgid "Add price"
+msgstr "Añadir coste"
+
+msgid "Add price and dealer"
+msgstr "Añadir coste y proveedor"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "You have inserted some dealer or price information which was not inserted as a provision."
+msgstr "Se han introducido ciertos datos de proveedor y/o precio que no fueron insertados como suministro."
+
+
+##########################
+#: form_products.htm.tpl #
+##########################
+
+msgid "By text"
+msgstr "Por texto"
+
+msgid "Search within"
+msgstr "Buscar en"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Show all products"
+msgstr "Mostrar todos los productos"
+
+msgid "By reference code"
+msgstr "Por código de referencia"
+
+msgid "By association"
+msgstr "Por asociación"
+
+msgid "Total number of products"
+msgstr "Número total de productos"
+
+
+###############################
+#: form_products_post.htm.tpl #
+###############################
+
+msgid "Products Management"
+msgstr "Gestión de Productos"
+
+msgid "No products"
+msgstr "No hay productos"
+
+msgid "Add new product"
+msgstr "Añadir nuevo producto"
+
+msgid "Modify selected product"
+msgstr "Modificar producto"
+
+msgid "Delete selected product"
+msgstr "Eliminar producto"
+
+msgid "Number of products"
+msgstr "Número de productos"
+
+
+#############
+#: menu.tpl #
+#############
+
+msgid "Development"
+msgstr "Desarrollo"
+
+
+####################
+#: message.htm.tpl #
+####################
+
+msgid "Message to the user"
+msgstr "Mensaje para el usuario"
+
+
+#############
+#: meta.tpl #
+#############
+
+msgid "en"
+msgstr "es_ES"

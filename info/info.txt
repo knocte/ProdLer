@@ -1,0 +1,42 @@
+# --------------------------------------------------------------------
+# Author:  Andres G. Aragoneses <angoar@iies.es>
+#
+# ProdLer 2.0 RC3 [Release Candidate 3]
+#
+# Description:
+#    This is a CMS based on:
+#     - PHP 4 OOP (planned to migrate to PHP 5 OOP).
+#     - XHTML 1.0 Transitional.
+#     - Smarty Templates.
+#     - JavaScript used, but not required.
+#     - Best viewed with Mozilla browsers.
+#     - 1024x768 resolution recommended, although has been tested with 800x600.
+#     - Multi-language supported with GetText.
+#     - Multi-theme support with CSS files.
+#
+# URL's of the project:
+#
+#  - http://prodler.sourceforge.net/
+#  
+#  - http://sourceforge.net/projects/prodler/
+#
+# License:
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# If you want any type of warranty in the use of the program, get
+# in contact with "A&R Ingenieros" company, at:
+#
+#  - http://www.ayringenieros.net/
+#
+#  - ayring@iies.es
+#
+# --------------------------------------------------------------------

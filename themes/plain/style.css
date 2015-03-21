@@ -1,0 +1,100 @@
+
+/* STYLE */
+
+body {
+  color: rgb(0,0,0);
+  background-color: #EFF3E0;
+  font-family: Verdana, Arial, Helvetica, Helv, sans-serif;
+}
+
+td, body { 
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+th { 
+  color: #FFFFFF;
+  background-color: rgb(0,0,0);
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+dl {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0.5ex;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+:link {
+  text-decoration: none;
+  color: rgb(180,0,150);
+}
+
+:visited {
+  text-decoration: none;
+  color: rgb(100,0,150);
+}
+
+:link:hover, :visited:hover {
+  text-decoration: underline;
+  color: #DD6900;
+}
+
+:link img,:visited img {
+  border: 0;
+}
+
+div#footer :visited,
+div#footer :link,
+div#footer :link:hover,
+div#footer :visited:hover{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+div#footer td {
+  font-size: 8px;
+}
+
+div.menu div {
+  font-weight: bold;
+}
+
+div#header div.headimg {
+  float: left;
+}
+
+div#header div.headline {
+  font-size: 25px;
+  font-weight: bold;
+}

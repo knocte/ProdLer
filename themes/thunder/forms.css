@@ -1,0 +1,48 @@
+
+/* FORMS */
+
+fieldset {
+  margin: 0px 10px 0px 10px; /* top right bottom left */
+  padding: 10px 10px 10px 10px;
+}
+
+input[type=submit],input[type=reset] {
+  background-color: #CCCCCC;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+
+  /* MOZILLA ONLY */
+  -moz-border-radius: 5px;
+}
+
+input[type=text],input[type=file],textarea {
+  background-color: #EFEFEF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+select {
+  background-color: #EFEFEF;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+
+  /* MOZILLA ONLY */
+  -moz-border-radius: 5px;
+}
+
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover,
+input[type=file]:hover,
+input[type=file]:focus,
+input[type=text]:hover,
+input[type=text]:focus{
+	background: white;
+}
+
+option.meta {
+  font-weight: bold;
+}

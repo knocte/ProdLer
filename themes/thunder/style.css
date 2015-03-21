@@ -1,0 +1,223 @@
+
+/* STYLE */
+
+body {
+  color: rgb(0,0,0);
+  background: #fff url("back.png") no-repeat top right;
+  font-family: lucida sans unicode, verdana, sans, arial, helvetica, sans-serif;
+}
+
+td, body { 
+ /* font-size: 11px; */
+  vertical-align: middle;
+}
+
+th { 
+  color: #FFFFFF;
+  background-color: rgb(0,0,0);
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 160%;
+  color: #90564B;
+  background: transparent;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 150%;
+  color: #A36155;
+  background: transparent;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 140%;
+  color: #866;
+  background: transparent;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 130%;
+  color: #933;
+  background: transparent;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+dl {
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0.5ex;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+:link {
+  text-decoration: none;
+  color: rgb(180,0,150);
+}
+
+:visited {
+  text-decoration: none;
+  color: rgb(100,0,150);
+}
+
+:link:hover, :visited:hover {
+  text-decoration: underline;
+  color: #DD6900;
+}
+
+:link img,:visited img {
+  border: 0;
+}
+
+img {
+ border-width: 0;
+ vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+div#header {
+  font-size: 90%;
+  color: #fff;
+  background: transparent url("headback.png") no-repeat top left;
+}
+
+div#header div.headimg {
+  float: left;
+}
+
+div#header div.headline {
+  font-family: verdana, sans, arial, helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 140%;
+  letter-spacing: 1ex;
+}
+
+div.menu {
+  background: #fff url("menuback.png") repeat-y;
+  border-color: #99c;
+}
+
+div.menu div {
+  font-weight: bold;
+  font-size: 90%;
+  text-align: center;
+  background: url("gradient-small.png") #7f97b8 repeat-x;
+  color: #fff;
+  border-color: #99c;
+}
+
+div.menu a:link,
+div.menu a:visited {
+  font-size: 80%;
+  text-align: left;
+  text-decoration: none;
+  color: #339;
+  background: transparent;
+}
+
+div.menu a:hover {
+  text-decoration: none;
+  background: url("menuitem-gray.png") repeat-y;
+  color: #D22A1D;
+}
+
+#home {
+  background: url("menuitem-red.png") repeat-y;
+  color: #339;
+}
+
+dt {
+  font-weight: bold;
+}
+
+div#content {
+  font-size: 90%;
+  background: #fafafa;
+  color: inherit;
+  border-color: #f2f2f2;
+}
+
+div#content a:link,
+div#content a:visited {
+  background: url("dot-darker.png") repeat-x bottom transparent;
+  color: #339;
+}
+
+div#content p a:hover,
+div#content div a:hover {
+  background: url("dot-dark.png") transparent !important;
+  color: #c30;
+}
+
+div#content a:target {
+  background-image: url("dot-dark.png");
+}
+
+div#footer :visited,
+div#footer :link,
+div#footer :link:hover,
+div#footer :visited:hover{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+div#footer td {
+  font-family: Verdana, Arial, Helvetica, Helv, sans-serif;
+  font-size: 9px;
+}
+
+div.box p.info a:link, div.box p.info a:visited {
+  font-weight: normal;
+}
+
+
+div.box {
+  background: #ffffff;
+  color: inherit;
+  border-color: #e3e3e3; 
+}
+
+
+div.box div.category { 
+  background: #f8f7fc;
+  color: #666699;
+  border-color: #eeedf2;
+}
+
+
+div.box p.info, div.box p.info a:link, div.box p.info a:visited {
+  color: #333366;
+  background: transparent;
+}
+
+div.box p.info {
+  border-color: #e2e1e6;
+}
+
+fieldset {
+  font-size: 80%;
+}

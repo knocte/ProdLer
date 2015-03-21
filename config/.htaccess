@@ -1,0 +1,14 @@
+Allow from all
+
+##################
+AuthType Digest
+AuthDigestFile /var/www/passwd/passwd_digest
+AuthDigestGroupFile /var/www/passwd/groups
+
+#################
+#AuthType Basic
+#AuthUserFile /var/www/passwd/passwd_basic
+#AuthGroupFile /var/www/passwd/groups
+
+AuthName "ProdLer Restricted Area"
+Require group ProdLer
